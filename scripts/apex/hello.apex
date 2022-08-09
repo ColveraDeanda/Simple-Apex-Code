@@ -10,7 +10,7 @@
         List<Integer> l1 = new List<Integer>();
         l1.add(500);
         l1.add(300);
-        l1.add(1000);
+        l1.add(1000); 
         
         // for (Integer numbers : l1) {
         //     System.debug(numbers);

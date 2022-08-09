@@ -24,6 +24,42 @@ public with sharing class dataTypes {
 
         Object obj = new AccountController();
         AccountController ac = (AccountController)obj; // Casting Object to AccountController.
+
+        // Cuando no se le asigna una valor a una variable, se toma como null.
+        Integer x = null; // null
+        Integer y; // null
+        System.debug(x);
+        System.debug(y);
+
+       
+        Integer I = 10;
+       // Integer i = 15; Error cause Apex in case-Sensitive;
+
+        System.debug(I);
+
+        String c = 'C';
+        
+        //Asserts that the specified condition is true.
+        System.assert(c < 'd');
+        System.assert('a' == 'A'); // true
+
+        // Asserts that the first two arguments are the same.
+        System.assertEquals('a', 'A', 'Letters are not equal'); // AssertException
+        
+
+        // Constantes
+        final Double PI = 3.14;
+        final String MY_COUNTRY = 'Mexico';
+        final Boolean MY_VALUE = true;
+        final Integer NUM = 3453;
+        System.debug(pi);
+
+        /**
+         * Methods and classes are final by default. You cannot use the final keyword in the declaration 
+         * of a class or method. This means they cannot be overridden. Use the virtual keyword if you need 
+         * to override a method or class.
+         */
+
       
     }
 }
