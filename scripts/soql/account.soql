@@ -3,4 +3,20 @@
 //     query text and running the command:
 //     SFDX: Execute SOQL Query with Currently Selected Text
 
-SELECT Id, Name FROM Account
+SELECT FIELDS(ALL) FROM Account LIMIT 1
+
+SELECT Id, Name from Account
+
+SELECT Id, Name FROM Account WHERE Name ='sForce'
+
+SELECT Id, Name FROM Account WHERE ID = '0018c00002ScaiAAAR'
+
+SELECT FIELDS(ALL) from Contact LIMIT 1
+
+SELECT Name, LastName, Phone, Email from Contact LIMIT 10
+
+SELECT COUNT() FROM Contact WHERE LastName = 'Gonzalez'
+
+
+
+

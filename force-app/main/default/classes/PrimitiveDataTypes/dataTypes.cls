@@ -1,5 +1,8 @@
 public with sharing class dataTypes {
-    public dataTypes() {
+
+    static final String IP_ADDRESS = '192.34.56.12';
+
+    public void dataTypes() {
         Integer numeroEntero = 100;
         System.debug(String.valueOf(numeroEntero)); // Parsing Integer to String.
         Long longNumber = 5343453464L;
