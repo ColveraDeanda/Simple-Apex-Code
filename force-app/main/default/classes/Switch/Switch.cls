@@ -41,6 +41,17 @@ public with sharing class Switch {
         }
 
 
+        Integer count = 0;
+        do {
+            System.debug(count);
+            while(count == 24) {
+                System.debug(count + ' WHILE');
+                count++;
+            }
+            count++;
+        }while(count < 26);
+
+
 
     }
 }
