@@ -51,6 +51,16 @@ public with sharing class Switch {
             count++;
         }while(count < 26);
 
+        Integer[] myInts = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; 
+        for (Integer i : myInts) {
+            System.debug(i);
+        }
+
+        String[] countries = new String[]{'Mexico', 'USA', 'Canada', 'Francia', 'China'};
+        for (String country : countries) {
+            System.debug(country);
+        }
+
 
 
     }
